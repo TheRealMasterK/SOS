@@ -1,0 +1,46 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "appspot",
+    "Authenticatedauthor",
+    "avant",
+    "blockhash",
+    "bnwqim",
+    "CAIT",
+    "davinci",
+    "DEFI",
+    "Denice",
+    "eljoum",
+    "ETGVEGS",
+    "Hackathon",
+    "havent",
+    "HODL'ers",
+    "jwli",
+    "KIARA",
+    "koalj",
+    "LAMPORTS",
+    "lrvibr",
+    "neighbourhood",
+    "nomadbanner",
+    "openai",
+    "plcrui",
+    "postmarkapp",
+    "qrcode",
+    "qtqp",
+    "recieved",
+    "restuarant",
+    "reuqired",
+    "srniue",
+    "transformative",
+    "uploadjobhelpers",
+    "yyyyoo"
+  ]
+}

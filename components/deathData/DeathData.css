@@ -1,0 +1,46 @@
+/* src/components/ContactForm/ContactForm.css */
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+.response-data {
+  width: 100px;
+  height: 100px;
+  margin: 5px
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.vaccinated {
+  margin-bottom: 10px;
+}
+
+.reasonOfDeath {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

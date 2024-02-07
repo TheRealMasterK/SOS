@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "standard",
+    "plugin:tailwindcss/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "no-unused-vars": "off" // Example to turn off the no-unused-vars rule
+    // Add other rules you want to disable or modify here
+  }
+}

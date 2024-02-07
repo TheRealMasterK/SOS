@@ -1,0 +1,32 @@
+.explore {
+  flex: 0.4;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.explore__header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border-bottom: 1px solid var(--twitter-background);
+  padding: 10px 20px;
+}
+
+.explore__header h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.explore__loader {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Adjustments for the Posts component if necessary */
+.posts {
+  margin-top: 20px;
+}
+
+/* You might want to add or adjust styles based on your specific layout and design */

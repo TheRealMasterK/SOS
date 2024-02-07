@@ -1,0 +1,12 @@
+{
+  "name": "Web3 Dao Agency",
+  "short_name": "Web3Dao",
+  "description": "A range of services to help businesses build innovative web solutions that engage customers and drive growth.",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "id": "/",
+  "scope": "/",
+  "start_url": "/"
+}

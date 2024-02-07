@@ -1,0 +1,77 @@
+.articleDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+/* Add your existing styles here */
+
+.loadingBarContainer {
+  width: 100%;
+  background-color: #ddd;
+  margin: 20px 0;
+}
+
+.loadingBar {
+  height: 20px;
+  background-color: rgb(140, 0, 0);
+  width: 0%;
+  text-align: center;
+  line-height: 20px; /* Same as height, centers text vertically */
+  color: white;
+}
+
+.meta {
+  font-size: 1.2em;
+
+  line-height: 1.6;
+  max-width: 800px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.content {
+  font-size: 1.2em;
+  line-height: 1.6;
+  max-width: 800px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 2em;
+  }
+
+  .meta,
+  .content {
+    font-size: 1em;
+  }
+}
+
+/* Existing styles for desktop */
+.articleDetails .title {
+  font-size: 24px; /* Adjust as needed */
+  line-height: 1.4; /* Adjust as needed */
+  margin: 20px 0; /* Adjust as needed */
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 600px) {
+  /* Adjust breakpoint as needed */
+  .articleDetails .title {
+    /* make this bold*/
+    font-weight: bold;
+    font-size: 22px; /* Smaller font size for mobile */
+
+    line-height: 1.5; /* Adjusted line height for mobile */
+    margin: 15px 0; /* Adjusted margin for mobile */
+    word-wrap: break-word; /* Break long words to prevent overflow */
+  }
+}

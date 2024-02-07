@@ -1,0 +1,33 @@
+export default interface FormState {
+  title: string;
+  location: string;
+  bedrooms: string;
+  bathrooms: string;
+  kitchens: string;
+  diningRooms: string;
+  familyRooms: string;
+  garage: string;
+  parking: string;
+  gardens: string;
+  security: string;
+  petFriendly: boolean;
+  hasPool: boolean;
+  hasLapa: boolean;
+  hasGym: boolean;
+  hasFireplace: boolean;
+  hasBBQArea: boolean;
+  totallyFenced: boolean;
+  electricGarage: boolean;
+  electricGate: boolean;
+  securityGate: boolean;
+  burglarBars: boolean;
+  propertyType: string;
+  description: string;
+  listingDate: string;
+  erfSize: string;
+  floorSize: string;
+  ratesAndTaxes: string;
+  coverage: string;
+  image: File | null;
+  price: string | null;
+}

@@ -1,0 +1,33 @@
+.reply .MuiTimelineItem-missingOppositeContent:before{
+    display:none
+}
+
+.reply .MuiTimeline-root{
+    padding: 1rem;
+}
+
+.upped{
+    margin-top: -2.5rem !important;
+}
+
+.replyingTo{
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    color: var(--twittie-light);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.replyingTo>p{
+    color: var(--twittie-color);
+}
+
+.reply img{
+    object-fit: cover;
+}
+
+.tweetBox__input__form{
+    margin-left: 0%;
+    width: 100%;
+}

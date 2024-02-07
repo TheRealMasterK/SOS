@@ -1,0 +1,83 @@
+/* Contact.css */
+
+.contact-container-prime{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+
+}
+
+.contact-container {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  margin-top: 20px;
+}
+
+.contact-container h2 {
+  font-size: 24px;
+  color: #000; 
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  font-size: 16px;
+  color: #555; 
+  margin-bottom: 20px;
+}
+
+.form-container {
+  max-width: 100%;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  color: #000; 
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #F5F8FA;
+  border-radius: 24px;
+  box-sizing: border-box; 
+  font-size: 16px; 
+  outline: none;
+  border: none;
+}
+
+.input-field:hover {
+
+  border: 2px solid black;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  font-family: inherit; 
+  resize: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  background-color: #000; 
+  color: #fff; 
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px; 
+}
+
+button[type="submit"]:hover {
+  background-color: #333; 
+}

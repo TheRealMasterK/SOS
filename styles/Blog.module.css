@@ -1,0 +1,17 @@
+/* Define the keyframes for the animation */
+@keyframes cardAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Define a class that uses the animation */
+.animate-card {
+  animation: cardAnimation 2s infinite ease-in-out;
+}

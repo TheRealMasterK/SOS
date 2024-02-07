@@ -1,0 +1,69 @@
+/* About.css */
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #fff; 
+}
+
+.about-header h1 {
+    font-size: 36px;
+    color: black;
+}
+
+.about-content {
+    background-color: #F5F8FA;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 24px; /* Update border-radius to 24px */
+
+}
+
+.MuiAccordion-root {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+.MuiAccordionSummary-root {
+    background-color: #f5f5f5;
+}
+
+.MuiAccordionSummary-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MuiAccordionDetails-root {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.MuiTypography-h6 {
+    font-size: 24px; /* Increase font size */
+    color: black;
+}
+
+/* Add black accents */
+.MuiAccordion-root {
+     /* Add black border to accordions 
+     border: 1px solid #000;
+     
+     */
+}
+
+.about-content {
+     /* 
+     border: 1px solid #000;
+     Add black border to accordion content */
+}
